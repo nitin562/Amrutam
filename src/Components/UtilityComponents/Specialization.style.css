@@ -1,0 +1,55 @@
+.SpecializationCont {
+  border: 1px solid #dcdcdc;
+  width: 100%;
+  border-radius: 18px;
+}
+.HeadingCont {
+  padding: 13px 35.34px 13px 35px;
+  border-radius: 15px 18px 0px 0px;
+  border-top: 1px solid #e2e2ee;
+  background: linear-gradient(
+    90deg,
+    #f4f7ec 0%,
+    rgba(248, 248, 247, 0.46) 100%
+  );
+}
+.HeadingCont p {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.74px;
+  text-align: left;
+  color: #313131;
+}
+.IconArea {
+  height: 123px;
+  gap: 14px;
+  display: flex;
+  margin: 28px 20px;
+}
+
+/* Specialization icon */
+.SvgCont {
+  padding: 8px ;
+
+  border-radius: 9px;
+  border: 1px solid #eaeaea;
+  background-color: #fffcf2;
+}
+.IconField{
+    display: flex;
+    flex-direction: column;
+gap: 7px;
+align-items: center;
+justify-content: center;
+
+
+}
+.IconField p{
+    font-family: Nunito;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+text-align: left;
+color: #000000;
+}

@@ -1,0 +1,69 @@
+.Container {
+  margin-top: 5rem;
+  width: 85%;
+}
+
+.Container img:nth-child(1) {
+  height: 190px;
+  border-radius: 12px;
+}
+.Container img{
+  width: 100%;
+}
+.overlay {
+  display: flex;
+  gap: 2rem;
+  background: #fffbf2;
+
+  height: 151px;
+  position: relative;
+  bottom: 3rem;
+  border: 1px;
+}
+#user {
+  width: 159px;
+  height: 159px;
+  border: 4px solid #ffffff;
+  position: relative;
+  left: 2rem;
+  bottom: 2rem;
+
+  border: 4px;
+}
+.ProfileInfo {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  height: 100%;
+  align-items: center;
+}
+.Stats {
+  display: flex;
+  gap: 74px;
+}
+.AppointmentBtn {
+  
+  width: 274px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 8px;
+  background: #3a643b;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.AppointmentBtn:hover{
+  scale: 1.2;
+
+}
+.AppointmentBtn p{
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: left;
+}

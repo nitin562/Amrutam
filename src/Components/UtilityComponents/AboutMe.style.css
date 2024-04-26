@@ -1,0 +1,157 @@
+.AboutCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dcdcdc;
+
+  border-radius: 18px ;
+
+}
+.Heading_about {
+  background: linear-gradient(270.04deg, #fbfcfb 0.05%, #f4f7ec 99.98%);
+
+  padding: 13px 35.34px 13px 35px;
+
+  border-radius: 15px 18px 0px 0px;
+  border-top: 1px solid #e2e2e2;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+}
+.Heading_about p:nth-child(1) {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.74px;
+  text-align: left;
+  color: #313131;
+}
+.FollowBtn {
+  display: flex;
+
+  padding: 6px 21px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #3a643b;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease; 
+}
+.FollowBtn:hover{
+  border:1px solid royalblue;
+  scale: 1.1;
+}
+.FollowBtn p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #585858;
+}
+.Information {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Intro p:nth-child(1) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #33354880;
+}
+.read_more {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.read_more div {
+  background-color: #797979;
+  flex: 1;
+  height: 1px;
+}
+.read_more:hover p{
+  letter-spacing: 1.1px;
+}
+.read_more p {
+  transition: all 0.4s ease;
+  width: fit-content;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #2b2b2b;
+  text-decoration: underline;
+}
+.language {
+  display: flex;
+
+  gap: 15px;
+  align-items: center;
+}
+#LanguageSpoken {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #000;
+}
+/* Language tile */
+.LanguageTile {
+  cursor: default;
+  width: 105px;
+  height: 40px;
+  padding: 7px 9px 7px 9px;
+  border-radius: 16px;
+  background: #2e37a40a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LanguageTile p {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+
+  color: #505050;
+}
+
+/* Social media icons */
+.SocialIcons {
+  display: flex;
+  gap: 15px;
+}
+.icon {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 0.3px solid #8e8e8e;
+  background: #f7f7fc;
+  transition: all 0.4s ease;
+}
+.icon:hover{
+  box-shadow: 0 0 0.4rem rgb(31, 255, 124);
+  background-color: rgb(14, 94, 50);
+}
+.icon:hover svg path{
+  stroke: #fff !important;
+}

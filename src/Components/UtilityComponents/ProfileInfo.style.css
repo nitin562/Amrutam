@@ -1,0 +1,92 @@
+.ColContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ProfileInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ProfileInfoContainer p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+}
+.ProfileInfoContainer span {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+  color: #3a643b;
+}
+.NameTickContainer {
+  display: flex;
+}
+.tickContainer {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #2e37a4;
+
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+.tickContainer svg {
+  padding: 3.25px 2.33px 3.79px 2.33px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* Star styling */
+.StarContainer {
+  display: flex;
+  height: 22px;
+  gap: 2px;
+}
+.StarContainer p {
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-right: 2px;
+}
+.StarContainer img{
+
+    width: 20px;
+}
+
+/* Follower Styling */
+.FollowerContainer{
+  gap: 5px;
+}
+.FollowerContainer p:nth-child(1){
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: center;
+  color: #3A643B;
+
+}
+.FollowerContainer p{
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+color: #212529;
+
+}

@@ -1,0 +1,36 @@
+.SlotCont {
+  display: flex;
+  flex-direction: column;
+  width: 123px;
+  height: 80px;
+  padding: 11px 12px 8px 12px;
+  gap: 8px;
+  border-radius: 11px;
+  border: 0.5px solid #e2e2e2;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.SlotCont:hover{
+  border-color: #3a643b;
+  scale: 1.1;
+}
+.SlotCont p:nth-child(1) {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.SlotCont p:nth-child(2) {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  text-align: center;
+  color: #818181;
+}
+.BgChange {
+  background-color: #f2fbf2;
+  border: 0.5px solid #3a643b;
+}

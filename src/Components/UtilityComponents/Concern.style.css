@@ -1,0 +1,67 @@
+.ConcernArea {
+  border: 1px solid #dcdcdc;
+  border-radius: 18px;
+}
+.HeadinConcern {
+  width: 623px;
+  height: 62px;
+  padding: 20px 28px 20px 28px;
+
+  border-radius: 15px 18px 0px 0px;
+  border-top: 1px solid #dcdcdc;
+  background: linear-gradient(90deg, #f4f7ec 0%, #f4f7ec 0.01%, #fdfdfd 100%);
+}
+.HeadinConcern p {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.74px;
+  text-align: left;
+  color: #313131;
+}
+.ConcernTypes {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 15px;
+  padding: 25px;
+  width: 100%;
+}
+/* Concern tile styling */
+.ConcernTile {
+  cursor: default;
+
+  padding: 10px;
+
+  border-radius: 19px;
+  background: #f7f7fc;
+}
+.ConcernTile p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #3a643b;
+}
+.Addmore {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #e0dfdf;
+  border-radius: 19px;
+  transition: all 0.4s ease;
+}
+.Addmore:hover {
+  background-color: rgba(65, 105, 225);
+}
+.Addmore:hover p {
+  color: #fff;
+}
+.Addmore p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #3a643b;
+}

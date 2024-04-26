@@ -1,0 +1,105 @@
+.ReviewCont {
+  border-radius: 18px;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.ReviewHead {
+  width: 100%;
+  background: linear-gradient(90deg, #f4f7ec 0%, #fbfbfb 100%);
+
+  padding: 17px 31px 17px 31px;
+
+  border-radius: 15px 18px 0px 0px;
+  border-top: 1px solid #dcdcdc;
+}
+.ReviewHead p {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.74px;
+  text-align: left;
+  color: #313131;
+}
+.reviewsArea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 20px;
+}
+/* Review Tile Styling */
+.ReviewTileCont {
+  padding: 13px 35px 22px 35px;
+  background: #fafafa;
+
+  border-radius: 17px;
+}
+.ReviewContentArea {
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+}
+.ReviewTileHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userInfo1{
+  display: flex;
+  gap: 10px;
+}
+.userInfo1 img {
+  border-radius: 40px;
+}
+.userName1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.userName1 p:nth-child(1) {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.28px;
+  text-align: left;
+  color: #2f2f2f;
+}
+.userName1 p:nth-child(2) {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.82px;
+  text-align: left;
+  color: #939393;
+}
+#DatePara {
+  width: fit-content;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #979797;
+}
+.Descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.starRow {
+  display: flex;
+  gap: 2px;
+}
+.Descriptions p {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #2e2f2e;
+}

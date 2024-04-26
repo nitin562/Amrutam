@@ -1,0 +1,58 @@
+.PickContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+  padding: 1rem;
+
+  margin-top: 1rem;
+}
+.HeadingDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.HeadingDiv p {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  width: fit-content;
+}
+.stroke {
+  flex: 1;
+  height: 1px;
+  border: 1px solid #e2e2e2;
+}
+.calender {
+  padding: 10px;
+  border: 1px solid #e2e2e2;
+  border-radius: 100%;
+}
+.calender svg {
+  width: 24px;
+  height: 24px;
+}
+.DateSlots {
+  display: flex;
+  padding: 24px 32.96px 19px 32px;
+  gap: 10px;
+  border-radius: 21px;
+  border: 1px solid #e2e2e2;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+}
+.DateSlots svg{
+    margin: 0 5px;
+    transition: all 0.4s ease;
+}
+.DateSlots svg:hover{
+    
+    scale: 1.1;
+  
+}

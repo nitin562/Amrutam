@@ -1,0 +1,61 @@
+.RightCont {
+  box-sizing: content-box;
+  width: 43%;
+  height: fit-content;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  padding: 1.5rem 1rem;
+}
+.feeBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  
+
+  padding: 16px 28px 16px 28px;
+
+  border-radius: 15px;
+  border: 1px solid #e2e2e2;
+}
+.feeBar p {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.Schedule {
+  width: 584px;
+ 
+  border-radius: 29px;
+  margin-top: 2rem;
+}
+.Heading1 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.Heading1 p {
+  width: fit-content;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.Heading1 div {
+  background-color: #e2e2e2;
+  height: 1px;
+  flex: 1;
+}
+.mode{
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+    
+}

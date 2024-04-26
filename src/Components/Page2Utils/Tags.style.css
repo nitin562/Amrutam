@@ -1,0 +1,39 @@
+.TagArea {
+  width: 100%;
+}
+.TagCont {
+  float: right;
+  display: flex;
+  gap: 16px;
+}
+.TagTile {
+  display: flex;
+  width: 139px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 31px;
+  background-color: #eaf2ea;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.TagTile:hover{
+    scale: 1.1;
+    background-color: rebeccapurple;
+}
+.TagTile p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.TagTile:hover p{
+    transition: all 0.4s ease;
+    color: #fff;
+}
+.TagTile:hover img{
+    filter: invert();
+}

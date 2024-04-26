@@ -1,0 +1,80 @@
+.TimeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.TimeSlotArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+#title {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  width: fit-content;
+  padding-left: 1rem;
+}
+.time_slot {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  width: 106px;
+  height: 67px;
+  padding: 12.5px;
+  border-radius: 22px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+.time_slot:hover{
+  border-color: #3a643b;
+  scale: 1.1;
+}
+.time_slot p {
+  color: #131313;
+  width: fit-content;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.changeAppearance {
+  background-color: #3a643b;
+  color: #fff;
+  border: 1px solid #ebebeb;
+}
+.changeAppearance p{
+  color: #fff;
+}
+#AppointmentBtn {
+  width: 476.37px;
+  height: 59.73px;
+
+  align-self: center;
+
+  border-radius: 8px;
+  background: #3a643b;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: center;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+#AppointmentBtn:hover {
+  scale: 1.1;
+}
